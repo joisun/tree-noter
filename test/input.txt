@@ -1,0 +1,17 @@
+.
+├── bin # Executable scripts
+│   └── www # App entry point and server setup
+├── public # Static assets
+│   ├── images # Image files
+│   ├── javascripts # Frontend JS
+│   └── stylesheets # CSS files
+│       └── style.css # Default stylesheet
+├── routes # Route definitions
+│   ├── index.js # Root path handler
+│   └── users.js # /users route handler
+├── views # Pug templates
+│   ├── error.pug # Error page template
+│   ├── index.pug # Home page template
+│   └── layout.pug # Base layout template
+├── app.js # App config and route setup
+└── package.json # Project metadata and dependencies
