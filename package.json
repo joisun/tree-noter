@@ -1,6 +1,6 @@
 {
   "name": "tree-noter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "bin": {
     "tree-noter": "./index.js"
@@ -8,10 +8,18 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "tree",
+    "formatter",
+    "cli",
+    "comments",
+    "notation",
+    "documentation",
+    "directory-structure"
+  ],
   "author": "sunzhongyi",
   "license": "ISC",
-  "description": "",
+  "description": "A command-line tool that formats tree command output with aligned or decorated comments, making directory structure documentation more readable",
   "dependencies": {
     "commander": "^13.1.0",
     "yargs": "^17.7.2"
