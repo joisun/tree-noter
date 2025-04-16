@@ -1,6 +1,6 @@
 {
   "name": "tree-noter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "bin": {
     "tree-noter": "./index.js"
@@ -19,6 +19,10 @@
   ],
   "author": "sunzhongyi",
   "license": "ISC",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/joisun/tree-noter"
+},
   "description": "A command-line tool that formats tree command output with aligned or decorated comments, making directory structure documentation more readable",
   "dependencies": {
     "commander": "^13.1.0",
